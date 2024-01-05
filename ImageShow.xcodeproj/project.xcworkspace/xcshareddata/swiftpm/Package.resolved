@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "asim",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nele-llama/Asim.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c2aa1f7b8d8c63292be1c471ea8859fceddcc85d"
+      }
+    }
+  ],
+  "version" : 2
+}
