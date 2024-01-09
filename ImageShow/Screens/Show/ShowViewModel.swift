@@ -13,6 +13,7 @@ final class ShowViewModel: ObservableObject {
     
     init() {
         ImageInvalidator.shared.setInvalidationPeriod(.afterHours(4))
+        ImageCacher.shared.setCacheType(.onDevice)
     }
     
     @MainActor

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34BAB9B2B4D5DE000060372 /* Asim in Frameworks */ = {isa = PBXBuildFile; productRef = A34BAB9A2B4D5DE000060372 /* Asim */; };
 		A36037A82B47294000A897CA /* ImageShowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36037A72B47294000A897CA /* ImageShowApp.swift */; };
 		A36037AC2B47294200A897CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36037AB2B47294200A897CA /* Assets.xcassets */; };
 		A36037AF2B47294200A897CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A36037AE2B47294200A897CA /* Preview Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		A36037D72B47472E00A897CA /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36037D62B47472E00A897CA /* ShowView.swift */; };
 		A36037D92B4747F500A897CA /* ShowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36037D82B4747F500A897CA /* ShowViewModel.swift */; };
 		A36037DB2B47488C00A897CA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36037DA2B47488C00A897CA /* NetworkService.swift */; };
-		A3E6CC1B2B484280007EE7A5 /* Asim in Frameworks */ = {isa = PBXBuildFile; productRef = A3E6CC1A2B484280007EE7A5 /* Asim */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3E6CC1B2B484280007EE7A5 /* Asim in Frameworks */,
+				A34BAB9B2B4D5DE000060372 /* Asim in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 			);
 			name = ImageShow;
 			packageProductDependencies = (
-				A3E6CC1A2B484280007EE7A5 /* Asim */,
+				A34BAB9A2B4D5DE000060372 /* Asim */,
 			);
 			productName = ImageShow;
 			productReference = A36037A42B47293F00A897CA /* ImageShow.app */;
@@ -158,7 +158,7 @@
 			);
 			mainGroup = A360379B2B47293F00A897CA;
 			packageReferences = (
-				A3E6CC192B484280007EE7A5 /* XCRemoteSwiftPackageReference "Asim" */,
+				A34BAB992B4D5DE000060372 /* XCRemoteSwiftPackageReference "Asim" */,
 			);
 			productRefGroup = A36037A52B47293F00A897CA /* Products */;
 			projectDirPath = "";
@@ -398,7 +398,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A3E6CC192B484280007EE7A5 /* XCRemoteSwiftPackageReference "Asim" */ = {
+		A34BAB992B4D5DE000060372 /* XCRemoteSwiftPackageReference "Asim" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nele-llama/Asim.git";
 			requirement = {
@@ -409,9 +409,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A3E6CC1A2B484280007EE7A5 /* Asim */ = {
+		A34BAB9A2B4D5DE000060372 /* Asim */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A3E6CC192B484280007EE7A5 /* XCRemoteSwiftPackageReference "Asim" */;
+			package = A34BAB992B4D5DE000060372 /* XCRemoteSwiftPackageReference "Asim" */;
 			productName = Asim;
 		};
 /* End XCSwiftPackageProductDependency section */
